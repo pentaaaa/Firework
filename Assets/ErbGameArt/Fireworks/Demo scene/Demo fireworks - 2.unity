@@ -162,14 +162,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameUpTime: 2
   names:
-  - "\u5317\u4EAC\u4E2D\u79D1\u89C6\u7EF4\u6587\u5316\u79D1\u6280\u6709\u9650\u516C\u53F8"
-  - "\u5317\u4EAC\u4E16\u754C\u56ED\u827A\u535A\u89C8\u4F1A\u4E8B\u52A1\u534F\u8C03\u5C40"
-  - "\u4E2D\u901A\u670D\u79D1\u4FE1\u4FE1\u606F\u6280\u672F\u6709\u9650\u516C\u53F8"
-  - "\u4E2D\u56FD\u79D1\u5B66\u9662\u81EA\u52A8\u5316\u7814\u7A76\u6240"
-  - "\u4E2D\u56FD\u79D1\u5B66\u9662\u8F6F\u4EF6\u7814\u7A76\u6240"
-  - "\u4E2D\u56FD\u79D1\u5B66\u9662\u751F\u6001\u4E2D\u5FC3"
-  - "\u4E2D\u56FD\u79D1\u5B66\u9662\u8BA1\u7B97\u673A\u7814\u7A76\u6240"
-  - "\u4E2D\u56FD\u79D1\u5B66\u9662xxxx"
+  - "\u878D\u521B\u6587\u5316\u65C5\u6E38\u96C6\u56E2\u4EA7\u54C1\u7814\u7B56\u90E8\u526F\u603B\u7ECF\u7406"
+  - "\u534E\u4E3A\u6280\u672F\u6709\u9650\u516C\u53F8\u5206\u7EC4\u6838\u5FC3\u7F51\u9886\u57DF\u526F\u603B\u88C1"
+  - "\u4E2D\u56FD\u6587\u7269\u4FE1\u606F\u54A8\u8BE2\u4E2D\u5FC3\u5F71\u89C6\u90E8\u4E3B\u4EFB"
+  - "\u4E2D\u534E\u4E66\u5C40\u6559\u80B2\u53D1\u5C55\u90E8\u4E3B\u4EFB"
+  - "\u4E2D\u56FD\u534E\u5F55\u96C6\u56E2\u5C71\u4E1C\u6613\u534E\u5F55\u4FE1\u606F\u6280\u672F\u6709\u9650\u516C\u53F8\u6570\u5B57\u4EA7\u4E1A\u7814\u7A76\u9662\u9662\u957F"
+  - "\u4E2D\u80FD\u4F1F\u4E1A\uFF08\u5317\u4EAC\uFF09\u6295\u8D44\u7BA1\u7406\u6709\u9650\u516C\u53F8\u8463\u4E8B\u957F"
   name_text: {fileID: 1502606336}
   Prefabs:
   - {fileID: 1396824536784066, guid: f826fa07ab2a464488066927c2df47b4, type: 3}
@@ -488,7 +486,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 92ec656e4c0ea394fa889f6cbad43873, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96ac5d3e1b3429948aca23bd1a15f737, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -899,7 +897,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1502606337
 RectTransform:
   m_ObjectHideFlags: 0
