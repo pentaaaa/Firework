@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 4d1db72026a6b794abdf5d02f30358b8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: RTWS YueGothic Demo
+  fontNames:
+  - RTWS YueGothic Demo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0f31a9cc697cc734799328919d16d11a, type: 3}
+  - {fileID: 12800000, guid: 121cffddb596789448f5e0bdf62d8acb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

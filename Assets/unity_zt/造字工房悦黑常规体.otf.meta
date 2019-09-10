@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: eec3067747bd0174797e6870ee3f579c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MF YueHei (Noncommercial)
+  fontNames:
+  - MF YueHei (Noncommercial)
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 45dba691d13d5b442a6c54f8448922a8, type: 3}
+  - {fileID: 12800000, guid: 7e8481d2081db264780fd75984ea02c9, type: 3}
+  - {fileID: 12800000, guid: 4e7e8859f362d804fb53b46be880017d, type: 3}
+  - {fileID: 12800000, guid: 757a4d8b5bfbeb34490668d380ddd70c, type: 3}
+  - {fileID: 12800000, guid: a641b7fce1ce8c7438e82ab12bb4ec47, type: 3}
+  - {fileID: 12800000, guid: e242840db011b934f900b4331e004c37, type: 3}
+  - {fileID: 12800000, guid: 9c72eabf93b18b74eb8ee13a6414075a, type: 3}
+  - {fileID: 12800000, guid: 9164dccf6c8d6e04e94889351171bdf9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
