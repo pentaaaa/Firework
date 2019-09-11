@@ -24,6 +24,7 @@ public class CameraHolder : MonoBehaviour
     private GameObject Instance;
     public GameObject nameRoot;
     public Model model;
+    public AudioSource audio;
     public enum Model
     {
         add,
@@ -31,11 +32,13 @@ public class CameraHolder : MonoBehaviour
     }
     void Start ()
     {
+        Screen.SetResolution(2304, 1280, true);
         if (Screen.dpi < 1) windowDpi = 1;
         if (Screen.dpi < 200) windowDpi = 1;
         else windowDpi = Screen.dpi / 200f;
         screenGUI.fontSize = (int)(15f * windowDpi);
         screenGUI.normal.textColor = new Color(0.5f, 0f, 0f);
+        audio = GameObject.Find("Sound").GetComponent<AudioSource>();
 		//Counter(+1);
         //for(int i = 0; i < 10; i++)
         //{
@@ -59,9 +62,11 @@ public class CameraHolder : MonoBehaviour
     {
         if (Input.GetKeyUp("right"))
         {
-            ShowAName(name_id);
-            Counter(name_id);
-            name_id++;
+            for(int i = 0; i < Prefabs.Length; i++)
+            {
+                Counter(i);
+            }
+            ShowAName(names.Length);
         }
         if (Input.GetKeyUp("left"))
         {
@@ -89,6 +94,8 @@ public class CameraHolder : MonoBehaviour
                 particle.Play();
                 
             }
+            audio.loop = true;
+            audio.Play();
             foreach (GameObject nameobj in namesList)
             {
                 Destroy(nameobj);
@@ -146,11 +153,16 @@ public class CameraHolder : MonoBehaviour
         }
         {
             Instance = Instantiate(Prefabs[Prefab]);
+            Invoke("playAudio", 1.5f);
             fireworks.Add(Instance);
            // Destroy(Instance,5f);
             print(Prefabs[Prefab].name);
             
         }
+    }
+    void playAudio()
+    {
+        audio.Play();
     }
 }
 

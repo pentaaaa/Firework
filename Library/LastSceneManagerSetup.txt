@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/ErbGameArt/Fireworks/Demo scene/Demo fireworks - 2.unity
+- path: Assets/ErbGameArt/Fireworks/Demo scene/Demo fireworks.unity
   isLoaded: 1
   isActive: 1
